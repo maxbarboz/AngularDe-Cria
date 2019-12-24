@@ -1,0 +1,21 @@
+Class e Style Binding
+
+Também são formas de porperty binding porém no lugar de trabalhar com variáveis, vamos trabalhar com o css.
+
+-------------------------------------------------------------------------------------------------------------
+
+ EXPLICANDO A TAG COMPLETA CLASS BINDING
+
+  <div class="alert" role="alert" [class.alert-success]  ->>>>> DECLARA UMA CLASS BINDING
+
+  = "classe.value == 'alert-success'"> Sucesso </div>    ->>>>> Se classe.value for igual ao alert ele ativa a opção
+
+-------------------------------------------------------------------------------------------------------------
+
+ EXPLICANDO A TAG COMPLETA STYLE BINDING
+
+  <div class="alert alert-danger" role="alert" [style.display]="classe.value == 'alert-danger' ? 'block' : 'none'">
+        Esse texto somente aparece em caso de erro.
+</div>
+
+->>> SE O DISPLAY FOR TRUE ELE APLICA A MODIFICAÇÃO BLOCK SE NÃO, APLICA NONE
