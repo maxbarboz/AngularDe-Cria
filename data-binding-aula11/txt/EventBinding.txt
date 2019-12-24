@@ -1,0 +1,3 @@
+Event Binding
+
+-> Como receber valores de evento do nosso template e aplicar alguma função encima disso
