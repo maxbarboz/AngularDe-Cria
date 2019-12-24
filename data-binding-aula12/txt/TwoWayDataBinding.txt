@@ -1,0 +1,6 @@
+TWO WAY DATA BINDING
+
+-> Valor do Template para o Componente e vice-versa
+-> Use-se binding de eventos + propriedades
+
+ngModel -> representação de uma entidade

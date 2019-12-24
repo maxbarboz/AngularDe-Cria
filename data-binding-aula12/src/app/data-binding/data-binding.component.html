@@ -1,0 +1,18 @@
+<section>
+  <article>
+    <h3> Two-way data binding </h3>
+    <div>
+      <input type="text"
+      [value]="valor"
+      (input)="valor = $event.target.value"
+      />
+      <h3> Valor atual: {{ valor }} </h3>
+
+      <input type="text"
+      [(ngModel)]="valor"
+      />
+
+      <h3> Valor atual: {{ valor }} </h3>
+    </div>
+  </article>
+</section>
