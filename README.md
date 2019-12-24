@@ -10,4 +10,6 @@
 
 [x] Two-way data binding
 
-[ ] Reusando COmponentes com Input properties
+[x] Reusando Componentes com Input properties
+
+[ ] Emitindo Eventos com Output properties
