@@ -6,4 +6,8 @@
 
 [x] Class e Style Binding
 
-[ ] Event Binding
+[x] Event Binding
+
+[x] Two-way data binding
+
+[ ] Reusando COmponentes com Input properties
