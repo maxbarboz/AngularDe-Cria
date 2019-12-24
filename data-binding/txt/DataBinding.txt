@@ -1,0 +1,13 @@
+Data Binding -> é uma forma de associar informações que estão no template para os componentes, e vice versa.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+TEMPLATE <--- COMPONENTE 
+
+Interpolação -> pegar um valor do atributo ou método e conseguir inserir o mesmo no template - {{valor}}
+PropertyBinding -> associação de propriedade - [propriedade] = "valor"
+
+TEMPLATE ---> COMPONENTE
+
+Evento -> buscar eventos como click e passar para o componente - (evento) = "handler"
+DaraBingind -> conseguindo manter tanto template e componente
